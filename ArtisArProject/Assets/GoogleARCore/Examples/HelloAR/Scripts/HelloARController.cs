@@ -116,6 +116,8 @@ namespace GoogleARCore.Examples.HelloAR
                 }
                 else
                 {
+                    //**AnibalComment: Podria crear un if para var andyObject y crear a andy una sola vez cuando presiono el touch.
+
                     // Instantiate Andy model at the hit pose.
                     var andyObject = Instantiate(AndyAndroidPrefab, hit.Pose.position, hit.Pose.rotation);
 
